@@ -98,6 +98,17 @@ OR
 python3 train.py --phrases sample_phrases/twi-test.txt --lang twi --voice twi_GH-kofi-medium --piper-path ./piper/piper
 ```
 
+OR
+```
+python3 train_modal.py \
+    --phrases sample_phrases/twi-test.txt \
+    --lang twi \
+    --voice twi_GH-kofi-medium \
+    --samples 15 \
+    --epochs 50 \
+    --hidden-dim 1024 \
+    --voice-dir ./voices
+```
 
 **Arguments**:
 
@@ -120,6 +131,10 @@ label = model.predict("recording.wav")
 print(label)  # "stop"
 ```
 
+Generate syhthetic audio to use for testing
+```
+echo "aane" | ./piper/piper --model voices/twi/twi_GH-kofi-medium.onnx --config voices/twi/twi_GH-kofi-medium.onnx.json --output_file test_aane.wav
+```
 
 
 Or use the built‑in `classifier.py` CLI:
