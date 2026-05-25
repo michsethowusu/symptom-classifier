@@ -1,6 +1,6 @@
 # Symptom Classifier – Tiny Offline Symptom Recognition
 
-Train a custom multi‑phrase classifier (wake‑word / command) using synthetic speech from Piper TTS.
+A custom multi‑phrase classifier (wake‑word / command) using synthetic speech from Piper TTS.
 Works offline, runs on CPU, and produces models <50 KB.
 
 ## How it works
