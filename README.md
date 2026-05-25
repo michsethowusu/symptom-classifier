@@ -1,6 +1,6 @@
-# Phrase Classifier – Tiny Offline Command Recognition
+# Symptom Classifier – Tiny Offline Symptom Recognition
 
-Train a custom multi‑phrase classifier (wake‑word / command) using synthetic speech from Piper TTS.
+A custom multi‑phrase classifier (wake‑word / command) using synthetic speech from Piper TTS.
 Works offline, runs on CPU, and produces models <50 KB.
 
 ## How it works
@@ -14,7 +14,7 @@ Works offline, runs on CPU, and produces models <50 KB.
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/michsethowusu/phrase-classifier.git
+git clone https://github.com/michsethowusu/symptom-classifier.git
 cd phrase-classifier
 ```
 
