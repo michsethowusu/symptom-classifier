@@ -14,7 +14,7 @@ Works offline, runs on CPU, and produces models <50 KB.
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/michsethowusu/phrase-classifier.git
+git clone https://github.com/michsethowusu/symptom-classifier.git
 cd phrase-classifier
 ```
 
